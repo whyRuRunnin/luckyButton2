@@ -10,11 +10,10 @@
     <script src="luckyButton.js" defer></script>
 </head>
 
-<body>
-    <button class="btn" onClick="replyWinningClick()">Button1</button>
-    <button class="btn" onClick="replyClick()">Button2</button>
-    <button class="btn" onClick="replyClick()">Button3</button>
-
+<body onload="decideWinning()">
+    <button id="btn1" onClick="replyClick(this.id)">Button1</button>
+    <button id="btn2" onClick="replyClick(this.id)">Button2</button>
+    <button id="btn3" onClick="replyClick(this.id)">Button3</button>
 </body>
 
 </html>
