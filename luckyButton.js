@@ -6,10 +6,9 @@ function replyClick(thisId) {
     }
 }
 
-function random_item(items) {
-    return items[Math.floor(Math.random() * items.length)];
+function random_item() {
+    var y = 3;
+    return Math.floor(Math.random() * y);
 
 }
-
-var items = ["btn1", "btn2", "btn3"];
-var x = random_item(items);
+var x = random_item();
